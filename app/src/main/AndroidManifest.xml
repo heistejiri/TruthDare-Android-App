@@ -12,6 +12,15 @@
         android:theme="@style/Theme.TruthDareApp"
         tools:targetApi="31">
         <activity
+            android:name=".DareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TruthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
