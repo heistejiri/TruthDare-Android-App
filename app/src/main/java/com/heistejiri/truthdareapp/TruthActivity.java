@@ -35,7 +35,7 @@ public class TruthActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager layoutManager;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
-    Gson gson = new Gson();
+    Gson g = new Gson();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
